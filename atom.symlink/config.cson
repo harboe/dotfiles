@@ -1,12 +1,14 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+    followSymlinks: false
+    hideGitIgnoredFiles: true
     ignoredNames: [
+      ".DS_Store"
       ".bundle"
       ".git"
       "log"
@@ -18,22 +20,26 @@
       "unity-ui"
       "glacier-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 16
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "go-plus":
+    goPath: "/Users/harboe/Projects/go"
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
