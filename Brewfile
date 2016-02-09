@@ -22,3 +22,7 @@ cask 'atom'
 cask 'vlc'
 cask 'iterm2'
 cast 'shiftit'
+
+#mac quickpreview
+cask 'quicklook-json'
+cask 'qlmarkdown'
